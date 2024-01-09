@@ -1,14 +1,14 @@
+body{
+    max-width:1320px ;
+    margin: 0 auto;
+    border-radius: 16px 16px 16px 16px;
+}
 .banner{
-    background-image: url("/resources/Banner\ Image.png");
-    background-repeat: no-repeat;
-    width: 1320px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(../resources/Banner\ Image.png);
 height: 600px;
 margin-left: auto;
 margin-right: auto;
 font-family: 'Merriweather', serif;
-
-
-
 }
  .banner-title{
     color: #FFF;
@@ -55,15 +55,15 @@ margin-left: auto;
 margin-right: auto;
 }
 .welcome-party{
-    background-image: url('/resources/Vectorrr.png');
+    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('/resources/Vectorrr.png');
     background-repeat: no-repeat;
-    width: 1320px;
 height: 600px;
 display: flex;
-justify-content: center;
 margin-left: auto;
 margin-right: auto;
 margin-top: 120px;
+/* padding-top: 100px; */
+/* padding-left:120px; */
 }
 .mid-party{
     width: 642px;
@@ -71,18 +71,200 @@ margin-top: 120px;
 font-family: Merriweather;
 font-size: 64px;
 font-weight: 900;
+letter-spacing: 7px;
+padding-top: 126px;
+padding-left: 126px;
+line-height: 80px;
+
 }
 .party-paragraph{
     color: rgba(255, 255, 255, 0.80);
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 126px;
 }
-.joint-button{
-    color: #FFF;
-
-text-align: center;
+.join-button{
+    background-color: black;
+    color:#FFF ;
+    border: none;
 font-family: Inter;
 font-size: 20px;
 font-weight: 700;
+margin-left: 126px;
+
+}
+ 
+.k24{
+    padding-top: 68px;
+    padding-right: 138px;
+    width: 320;
+    height: 464;
+}
+.schedule{
+    width: 1320px;
+    height: 482px;
+    text-align: center;
+    border-radius: 1px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 56px;
+padding-top: 100px;
+background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.s-text{
+color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 50px;
+}
+.m-color{
+color: #F00;
+}
+.b-text{
+display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #F00;
+color:#FFF;
+border: none;
+font-family: Inter;
+}
+.section-5{
+display: flex;
+justify-content: space-around;
+    /* width: 1600px; */
+margin-left: auto;
+margin-right: auto;
+background: #FFF;
+padding-top: 160px;
+}
+.offer{
+
+}
+.new-offer{
+color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.update{
+color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.update-text{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+padding-top: 22px;
+}
+.k2k24{
+color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.n-text{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+.gp-96{
+width: 463px;
+height: 463px;
+flex-shrink: 0;
+border-radius: 463px;
+border: 15px solid #F00;
+}
+.ellipse{
+padding: 48px 48px 48px 48px;
+border-radius: 364px
+}
+.best-gift{
+color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.awesome-portfolio{
+color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.bonus-description{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+padding-top: 22px;
+}
+.product-list{
+    padding-top: 60px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.image-size{
+border-radius: 16px;
+display:flex ;
+gap:24px;
+margin-top: 24px;
+}
+.image-add{
+    padding-top:39px;
+}
+.mail{
+    margin-top: 50px;
+width: 1320px;
+height: 616px;
+flex-shrink: 0;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+}
+.group-61{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.subscribe{
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.mail-paragraph{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
 }
